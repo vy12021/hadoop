@@ -52,8 +52,8 @@ public class LogAnalysiser extends Configured implements Tool {
 			shortin = "/" + shortin;
 		if (!shortout.startsWith("/"))
 			shortout = "/" + shortout;
-		shortin = "/user/oracle/dfs/" + shortin;
-		shortout = "/user/oracle/dfs/" + shortout;
+		shortin = "/user/loganaly/" + shortin;
+		shortout = "/user/loganaly/" + shortout;
 		File inputdir = new File(inputpath);
 		File outputdir = new File(outputpath);
 
